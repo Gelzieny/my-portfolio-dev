@@ -1,0 +1,79 @@
+
+
+body {
+  font-family: "Asap", serif;
+  background-color: #121212;
+  color: #fff;
+  line-height: 1.6;
+
+}
+
+header {
+  text-align: center;
+  background-image: url('./assets/backgound.png');
+  background-size: cover;
+  background-position: center;
+  padding: 50px 20px;
+}
+
+header img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+header h4 {
+  margin-top: 56px;
+  margin-bottom: 8px;
+}
+
+header h4 span{
+  color: #E3646E;
+}
+
+header h1{
+  color: #E2E4E9;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  justify-content: center;  /* Centraliza horizontalmente */
+  align-items: center;      /* Centraliza verticalmente */
+}
+.content {
+  width: 680px;            /* Largura fixa de 680px */
+  max-width: 100%;         /* Permite que a largura se ajuste até o tamanho máximo disponível */
+  padding-top: 20px;
+  word-wrap: break-word;   
+  font-variation-settings:
+    "wdth" 100;
+}
+
+header .skills{
+  padding: 80px 0 94px 0;
+}
+
+nav{
+  display: flex;
+}
+
+nav ul{
+  list-style: none;
+  display: flex;
+  gap: .8rem;
+}
+
+
+
+#scroll {
+  background-color: transparent;
+  border: none;
+  z-index: 1;
+}
+
+#scroll img{
+  width: 32px; 
+  height: 32px;
+}
